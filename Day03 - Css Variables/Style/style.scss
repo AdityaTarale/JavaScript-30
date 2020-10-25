@@ -1,0 +1,45 @@
+:root {
+  --spacing: 10px;
+  --blur: 10px;
+  --base:#fedf3f;
+  --border:0px;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  overflow: hidden;
+}
+h1 {
+  margin: 50px 0;
+}
+span {
+  color: var(--base);
+}
+.container {
+  display: flex;
+  width:100vw;
+  margin: 5px auto;
+  justify-content: center;
+}
+.container > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+label {
+  font-size: 24px;
+}
+.demo {
+  width: 650px;
+  height: 350px;
+  margin: 15px auto;
+  padding: var(--spacing);
+  background-color: var(--base);
+  filter: blur(var(--blur));
+  border-radius: var(--border);
+}
