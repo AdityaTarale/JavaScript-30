@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("https://source.unsplash.com/1600x900/?time");
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0, 255, 255, 0.6);
+  border: 15px solid #fff;
+  -webkit-box-shadow: 0 20px 20px 0 black;
+          box-shadow: 0 20px 20px 0 black;
+  border-radius: 50%;
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 5px solid #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 500;
+}
+
+.hand {
+  width: 50%;
+  height: 8px;
+  border-radius: 5px 0 0 5px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  z-index: 1;
+}
+
+#hour_hand {
+  background-color: #000;
+}
+
+#minute_hand {
+  background-color: #00f;
+}
+
+#second_hand {
+  background-color: #f37712;
+}
+/*# sourceMappingURL=style.css.map */
