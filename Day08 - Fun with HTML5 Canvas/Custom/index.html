@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Canvas</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        padding: 16px;
+        background-color: rgba(0,0,0,0.2)
+      }
+      label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+      }
+      input {
+        margin-right: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <label>Color:</label>
+      <input type="color" name="base" value="#000000" />
+      <label>Line Stroke:</label>
+      <input type="range" id="Stroke" min="1" max="100" value="25" id="Stroke" />
+    </div>
+    <canvas id="draw"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
