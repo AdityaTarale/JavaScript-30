@@ -12,7 +12,7 @@ Day 4:- Array Cardio Day 1 <br>
 Day 5:- Flex Panel Gallery <br>
 Day 6:-  Type Ahead <br>
 Day 7:-  Array Cardio Day 2 <br>
-Day 8:-   <br>
+Day 8:-  Fun with Html Canvas <br>
 Day 9:-   <br>
 Day 10:-   <br>
 Day 11:-   <br>
