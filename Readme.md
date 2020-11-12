@@ -15,8 +15,8 @@ Day 7:-  Array Cardio Day 2 <br>
 Day 8:-  Fun with Html Canvas <br>
 Day 9:-  Dev Tools Domination <br>
 Day 10:- Hold Shift and Check checkboxes <br>
-Day 11:-   <br>
-Day 12:-   <br>
+Day 11:- Custom Video Player  <br>
+Day 12:-  Key Sequence Detection <br>
 Day 13:-   <br>
 Day 14:-   <br>
 Day 15:-   <br>
