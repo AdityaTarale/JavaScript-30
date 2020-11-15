@@ -1,0 +1,62 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #e2e2e2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.site-wrap {
+  max-width: 700px;
+  background-color: #fff;
+  margin: 100px auto;
+  text-align: justify;
+  padding: 40px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.align-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.slide-in {
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.align-right.slide-in {
+  -webkit-transform: translateX(30%) scale(0.95);
+          transform: translateX(30%) scale(0.95);
+}
+
+.align-left.slide-in {
+  -webkit-transform: translateX(-30%) scale(0.95);
+          transform: translateX(-30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  -webkit-transform: translateX(0%) scale(1);
+          transform: translateX(0%) scale(1);
+}
+/*# sourceMappingURL=style.css.map */
