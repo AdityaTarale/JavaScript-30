@@ -19,7 +19,7 @@ Day 11:- Custom Video Player  <br>
 Day 12:-  Key Sequence Detection <br>
 Day 13:-  Slide in on Scroll <br>
 Day 14:-  Reference Vs Copying <br>
-Day 15:-   <br>
+Day 15:-  Local Storage <br>
 Day 16:-   <br>
 Day 17:-   <br>
 Day 18:-   <br>
