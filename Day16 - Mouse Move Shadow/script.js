@@ -9,8 +9,12 @@ function shadow(e) {
   const width = hero.offsetWidth;
   const height = hero.offsetHeight;
 
+  // const { width : offsetWidth, height : offsetHeight } = hero;
+
   let x = e.offsetX;
   let y = e.offsetY;
+
+  //let {offsetX:x,offsetY:y}=e;
 
   // console.log(this,e.target)
   if (this !== e.target) {
