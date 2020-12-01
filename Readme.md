@@ -22,8 +22,8 @@ Day 14:-  Reference Vs Copying <br>
 Day 15:-  Local Storage <br>
 Day 16:-  Mouse Move Shadow <br>
 Day 17:-  Sort Without Articles <br>
-Day 18:-   <br>
-Day 19:-   <br>
+Day 18:-  Adding Up Times with Reduce <br>
+Day 19:-  Webcam Fun <br>
 Day 20:-   <br>
 Day 21:-   <br>
 Day 22:-   <br>
