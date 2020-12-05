@@ -24,9 +24,9 @@ Day 16:-  Mouse Move Shadow <br>
 Day 17:-  Sort Without Articles <br>
 Day 18:-  Adding Up Times with Reduce <br>
 Day 19:-  Webcam Fun <br>
-Day 20:-   <br>
-Day 21:-   <br>
-Day 22:-   <br>
+Day 20:-  Speech Detection <br>
+Day 21:-  Geoloaction <br>
+Day 22:-  Follow Along Link Highlighter <br>
 Day 23:-   <br>
 Day 24:-   <br>
 Day 25:-   <br>
