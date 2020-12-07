@@ -27,7 +27,7 @@ Day 19:-  Webcam Fun <br>
 Day 20:-  Speech Detection <br>
 Day 21:-  Geoloaction <br>
 Day 22:-  Follow Along Link Highlighter <br>
-Day 23:-   <br>
+Day 23:-  Speech Synthesis <br>
 Day 24:-   <br>
 Day 25:-   <br>
 Day 26:-   <br>
