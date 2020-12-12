@@ -1,0 +1,43 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Event Capture , Propagation</title>
+        <style>
+            html {
+                box-sizing: border-box;
+            }
+            *,
+            *::before,
+            *:after {
+                box-sizing: inherit;
+            }
+            div {
+                width: 100%;
+                padding: 120px;
+            }
+            .one {
+                background-color: thistle;
+            }
+            .two {
+                background-color: mistyrose;
+            }
+            .three {
+                background-color: coral;
+            }
+        </style>
+    </head>
+    <body class="bod">
+        <div class="one">
+            div 1
+            <div class="two">
+                div2
+                <div class="three">
+                    div3
+                </div>
+            </div>
+        </div>
+        <button>button</button>
+        <script src="script.js"></script>
+    </body>
+</html>
