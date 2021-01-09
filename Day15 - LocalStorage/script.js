@@ -40,7 +40,7 @@ populateList(items, itemList);
 
 function toggleCheck(e) {
   if (!e.target.matches('input')) return;
-  // console.log(e.target)
+  console.log(e.target)
 
   const el = e.target;
   const index = el.dataset.index;

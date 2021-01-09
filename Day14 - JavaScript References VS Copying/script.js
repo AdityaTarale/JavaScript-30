@@ -17,7 +17,7 @@ const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
 // and we want to make a copy of it.
 const team = players;
 console.table(players, team);
-team[3] = 'Lux';
+// team[3] = 'Lux';
 console.log(players); //reference
 
 // You might think we can just do something like this:
@@ -90,14 +90,13 @@ const abc = {
     }
 }
 
-console.clear();
 console.table(abc);
 
 const dev = Object.assign({}, abc, { name: 'xyz' }); //only 1 level of object
 console.table(dev)
 
 dev.social.linkedIn = '@coolman';  //making reference
-console.log(dev);
+console.table(dev);
 console.table(abc);
 
 const dev2 = JSON.parse(JSON.stringify(abc)); // to make clone
