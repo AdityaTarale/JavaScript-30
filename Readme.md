@@ -29,8 +29,8 @@ Day 21:-  Geoloaction <br>
 Day 22:-  Follow Along Link Highlighter <br>
 Day 23:-  Speech Synthesis <br>
 Day 24:-  Sticky Nav <br>
-Day 25:-   <br>
-Day 26:-   <br>
+Day 25:-  Event Capture, Propagation,Bubbling and Once<br>
+Day 26:-  Strip Follow Along Nav <br>
 Day 27:-   <br>
 Day 28:-   <br>
 Day 29:-   <br>
