@@ -16,9 +16,10 @@ const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
 
 // and we want to make a copy of it.
 const team = players;
-console.table(players, team);
+console.table(players);
+console.table(team);
 // team[3] = 'Lux';
-console.log(players); //reference
+console.table(players); //reference
 
 // You might think we can just do something like this:
 

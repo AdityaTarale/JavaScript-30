@@ -1,34 +1,53 @@
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/Style/style.css" />
+        <title>CSS Variables</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Style/style.css" />
-    <title>Document</title>
-</head>
-
-<body>
-    <h1>Update Css variables with <span>JS</span></h1>
-    <div class="container">
-        <div>
-            <label>Spacing:</label>
-            <input type="range" name="spacing" min="10" max="100" value="10" data-sizing="px" />
+    <body>
+        <h1>Update Css variables with <span>JS</span></h1>
+        <div class="container">
+            <div>
+                <label>Spacing:</label>
+                <input
+                    type="range"
+                    name="spacing"
+                    min="10"
+                    max="100"
+                    value="10"
+                    data-sizing="px"
+                />
+            </div>
+            <div>
+                <label>Blur:</label>
+                <input
+                    type="range"
+                    name="blur"
+                    min="0"
+                    max="50"
+                    value="10"
+                    data-sizing="px"
+                />
+            </div>
+            <div>
+                <label>Border-radius:</label>
+                <input
+                    type="range"
+                    name="border"
+                    min="0"
+                    max="25"
+                    value="0"
+                    data-sizing="px"
+                />
+            </div>
+            <div>
+                <label>Base:</label>
+                <input type="color" name="base" value="#fedf3f" />
+            </div>
         </div>
-        <div>
-            <label>Blur:</label>
-            <input type="range" name="blur" min="0" max="50" value="10" data-sizing="px" />
-        </div>
-        <div>
-            <label>Border-radius:</label>
-            <input type="range" name="border" min="0" max="25" value="0" data-sizing="px" />
-        </div>
-        <div>
-            <label>Base:</label>
-            <input type="color" name="base" value="#fedf3f" />
-        </div>
-    </div>
-    <img class="demo" src="/images/hera pheri legand.jpg" alt="" />
-    <script src="script.js"></script>
-</body>
-
+        <img class="demo" src="/images/hera pheri legand.jpg" alt="" />
+        <script src="script.js"></script>
+    </body>
 </html>
