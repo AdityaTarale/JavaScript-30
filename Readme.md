@@ -33,5 +33,5 @@ Day 25:-  Event Capture, Propagation,Bubbling and Once<br>
 Day 26:-  Strip Follow Along Nav <br>
 Day 27:-  Click and Drag <br>
 Day 28:-  Video Speed Controller <br>
-Day 29:-   <br>
-Day 30:-   <br>
+Day 29:-  Countdown Timer <br>
+Day 30:-  Whack A Mole <br>
